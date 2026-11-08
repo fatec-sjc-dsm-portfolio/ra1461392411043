@@ -23,7 +23,7 @@ export default function ProfileImage() {
           doesn't need, so the card never has to scroll to fit the bio. */}
       <div className="brutal-static w-full aspect-[4/5] lg:aspect-auto lg:h-full rounded-xl overflow-hidden border-[3px] border-zinc-100 [--brutal-x:6px] [--brutal-y:6px]">
         <img
-          src="/img/victor.jfif"
+          src={`${import.meta.env.BASE_URL}img/victor.jfif`}
           alt="Victor Daniel"
           className="w-full h-full object-cover object-top"
         />

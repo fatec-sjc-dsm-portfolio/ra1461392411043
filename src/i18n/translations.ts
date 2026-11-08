@@ -96,7 +96,7 @@ const projectsEn: Project[] = [
     ],
     tags: ['Next.js', 'React', 'TypeScript', 'Tailwind', 'MongoDB', 'Cloudflare R2', 'NFC', 'Docker'],
     link: 'https://github.com/victordanielrb/taggify',
-    image: '/img/taggify.png',
+    image: `${import.meta.env.BASE_URL}img/taggify.png`,
     personal: true,
   },
   {
@@ -112,7 +112,7 @@ const projectsEn: Project[] = [
     ],
     tags: ['React', 'FastAPI', 'Python', 'Gemini AI', 'AI Agents', 'Bun'],
     link: 'https://github.com/victordanielrb/vibez',
-    image: '/img/vibez.png',
+    image: `${import.meta.env.BASE_URL}img/vibez.png`,
     personal: true,
   },
   {
@@ -126,7 +126,7 @@ const projectsEn: Project[] = [
     ],
     tags: ['Flutter', 'FastAPI', 'Python', 'MongoDB', 'Docker', 'NLP', 'Product Owner'],
     link: 'https://github.com/Equipe-Skyfall/themis',
-    image: '/img/themis.png',
+    image: `${import.meta.env.BASE_URL}img/themis.png`,
   },
   {
     title: 'TrackerFi',
@@ -143,7 +143,7 @@ const projectsEn: Project[] = [
     ],
     tags: ['React Native', 'Node.js', 'TypeScript', 'MongoDB', 'Redis', 'Microservices'],
     link: 'https://github.com/victordanielrb/trackerfi',
-    image: '/img/tracker_fi.jpg',
+    image: `${import.meta.env.BASE_URL}img/tracker_fi.jpg`,
     personal: true,
   },
   {
@@ -157,7 +157,7 @@ const projectsEn: Project[] = [
     ],
     tags: ['React', 'Tailwind', 'TypeScript', 'AWS', 'Docker'],
     link: 'https://github.com/Equipe-Skyfall/skytrack',
-    image: '/img/skytrack.jpg',
+    image: `${import.meta.env.BASE_URL}img/skytrack.jpg`,
   },
   {
     title: 'NectoPoint',
@@ -171,7 +171,7 @@ const projectsEn: Project[] = [
     ],
     tags: ['React.js', 'Scrum Master', 'Agile', 'Front-end'],
     link: 'https://github.com/Equipe-Skyfall/nectopoint',
-    image: '/img/nectopoint.jpg',
+    image: `${import.meta.env.BASE_URL}img/nectopoint.jpg`,
   },
 ]
 
@@ -189,7 +189,7 @@ const projectsPt: Project[] = [
     ],
     tags: ['Next.js', 'React', 'TypeScript', 'Tailwind', 'MongoDB', 'Cloudflare R2', 'NFC', 'Docker'],
     link: 'https://github.com/victordanielrb/taggify',
-    image: '/img/taggify.png',
+    image: `${import.meta.env.BASE_URL}img/taggify.png`,
     personal: true,
   },
   {
@@ -205,7 +205,7 @@ const projectsPt: Project[] = [
     ],
     tags: ['React', 'FastAPI', 'Python', 'Gemini AI', 'AI Agents', 'Bun'],
     link: 'https://github.com/victordanielrb/vibez',
-    image: '/img/vibez.png',
+    image: `${import.meta.env.BASE_URL}img/vibez.png`,
     personal: true,
   },
   {
@@ -219,7 +219,7 @@ const projectsPt: Project[] = [
     ],
     tags: ['Flutter', 'FastAPI', 'Python', 'MongoDB', 'Docker', 'NLP', 'Product Owner'],
     link: 'https://github.com/Equipe-Skyfall/themis',
-    image: '/img/themis.png',
+    image: `${import.meta.env.BASE_URL}img/themis.png`,
   },
   {
     title: 'TrackerFi',
@@ -236,7 +236,7 @@ const projectsPt: Project[] = [
     ],
     tags: ['React Native', 'Node.js', 'TypeScript', 'MongoDB', 'Redis', 'Microservices'],
     link: 'https://github.com/victordanielrb/trackerfi',
-    image: '/img/tracker_fi.jpg',
+    image: `${import.meta.env.BASE_URL}img/tracker_fi.jpg`,
     personal: true,
   },
   {
@@ -250,7 +250,7 @@ const projectsPt: Project[] = [
     ],
     tags: ['React', 'Tailwind', 'TypeScript', 'AWS', 'Docker'],
     link: 'https://github.com/Equipe-Skyfall/skytrack',
-    image: '/img/skytrack.jpg',
+    image: `${import.meta.env.BASE_URL}img/skytrack.jpg`,
   },
   {
     title: 'NectoPoint',
@@ -264,7 +264,7 @@ const projectsPt: Project[] = [
     ],
     tags: ['React.js', 'Scrum Master', 'Agile', 'Front-end'],
     link: 'https://github.com/Equipe-Skyfall/nectopoint',
-    image: '/img/nectopoint.jpg',
+    image: `${import.meta.env.BASE_URL}img/nectopoint.jpg`,
   },
 ]
 
@@ -319,7 +319,7 @@ export const translations: Record<Language, Translations> = {
       {
         label: 'Download CV',
         icon: 'fas fa-file-arrow-down',
-        href: '/Victor_Daniel_Ramos_Bessa_EN_CV.pdf',
+        href: `${import.meta.env.BASE_URL}Victor_Daniel_Ramos_Bessa_EN_CV.pdf`,
         download: true,
         filename: 'Victor_Daniel_Ramos_Bessa_EN_CV.pdf',
       },
@@ -375,7 +375,7 @@ export const translations: Record<Language, Translations> = {
       {
         label: 'Baixar CV',
         icon: 'fas fa-file-arrow-down',
-        href: '/Victor_Daniel_Ramos_Bessa_CV.pdf',
+        href: `${import.meta.env.BASE_URL}Victor_Daniel_Ramos_Bessa_CV.pdf`,
         download: true,
         filename: 'Victor_Daniel_Ramos_Bessa_CV.pdf',
       },
